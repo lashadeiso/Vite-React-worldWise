@@ -1,5 +1,4 @@
 import { createContext, useState, useEffect, useContext } from "react";
-import { useParams } from "react-router-dom";
 import PropTypes from "prop-types";
 
 const BASE_URL = "http://localhost:8000";
@@ -9,7 +8,6 @@ function CitiesProvider({ children }) {
   const [cities, setCities] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [currentCity, setCurrentCity] = useState();
-  const { id } = useParams();
 
   useEffect(function () {
     async function fetchCities() {
