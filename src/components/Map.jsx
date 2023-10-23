@@ -9,12 +9,13 @@ import {
   useMapEvents,
 } from "react-leaflet";
 import { useCities } from "../contexts/CitiesContext";
-import { useGeolocation } from "../hooks/useGeolocation";
 import PropTypes from "prop-types";
+import { useGeolocation } from "../hooks/useGeolocation";
 import Spinner from "./Spinner";
 import styles from "./Map.module.css";
 import Button from "./Button";
 import useUrlPosition from "../hooks/useUrlPosition";
+
 function Map() {
   const { isLoading, cities } = useCities();
   const [mapPosition, setMapPosition] = useState([40, 0]);

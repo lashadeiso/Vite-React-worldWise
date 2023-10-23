@@ -4,7 +4,9 @@ import PropTypes from "prop-types";
 function CountryItem({ country }) {
   return (
     <li className={styles.countryItem}>
-      <span className={`${styles.emoji} fi fi-${country.emoji}`}> </span>
+      <span className={`${styles.emoji} fi fi-${country.emoji.toLowerCase()}`}>
+        {" "}
+      </span>
       <span>{country.country}</span>
     </li>
   );
