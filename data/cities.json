@@ -1,28 +1,40 @@
 {
   "cities": [
     {
-      "cityName": "Remilly",
-      "country": "France",
-      "emoji": "FR",
-      "date": "2023-10-23T17:58:23.279Z",
+      "cityName": "Kutaisi",
+      "country": "Georgia",
+      "emoji": "GE",
+      "date": "2023-10-23T18:27:33.176Z",
       "notes": "",
       "position": {
-        "lat": "46.800059446787316",
-        "lng": "3.7792968750000004"
+        "lat": "42.262557798722085",
+        "lng": "42.68529653549194"
       },
-      "id": 98443198
+      "id": 98443202
     },
     {
-      "cityName": "Montredon-Labessonnie",
-      "country": "France",
-      "emoji": "FR",
-      "date": "2023-10-23T18:03:06.661Z",
+      "cityName": "Bad Langensalza",
+      "country": "Germany",
+      "emoji": "DE",
+      "date": "2023-07-06T18:28:58.000Z",
       "notes": "",
       "position": {
-        "lat": "43.67581809328341",
-        "lng": "2.3291015625000004"
+        "lat": "51.055207338584964",
+        "lng": "10.656738281250002"
       },
-      "id": 98443199
+      "id": 98443203
+    },
+    {
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "FR",
+      "date": "2022-11-11T18:29:14.000Z",
+      "notes": "ძალიან კარგი იყო",
+      "position": {
+        "lat": "48.84302835299519",
+        "lng": "2.4060058593750004"
+      },
+      "id": 98443204
     }
   ]
 }

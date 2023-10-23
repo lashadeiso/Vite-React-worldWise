@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { useSearchParams, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import {
   MapContainer,
   TileLayer,
@@ -11,13 +11,12 @@ import {
 import { useCities } from "../contexts/CitiesContext";
 import PropTypes from "prop-types";
 import { useGeolocation } from "../hooks/useGeolocation";
-import Spinner from "./Spinner";
 import styles from "./Map.module.css";
 import Button from "./Button";
 import useUrlPosition from "../hooks/useUrlPosition";
 
 function Map() {
-  const { isLoading, cities } = useCities();
+  const { cities } = useCities();
   const [mapPosition, setMapPosition] = useState([40, 0]);
   const [mapLat, mapLng] = useUrlPosition();
   const {
@@ -41,7 +40,6 @@ function Map() {
     [geolocationPosition]
   );
 
-  if (isLoading || cities.length === 0) return <Spinner />;
   return (
     <div className={styles.mapContainer}>
       {!geolocationPosition && (
@@ -65,7 +63,11 @@ function Map() {
             key={city.id}
           >
             <Popup>
-              <span className={`${styles.emoji} fi fi-${city.emoji}`}> </span>
+              <span
+                className={`${styles.emoji} fi fi-${city.emoji.toLowerCase()}`}
+              >
+                {" "}
+              </span>
               <span>{city.cityName}</span>
             </Popup>
           </Marker>
