@@ -35,6 +35,30 @@
         "lng": "2.4060058593750004"
       },
       "id": 98443204
+    },
+    {
+      "cityName": "Villarejo de Salvanes",
+      "country": "Spain",
+      "emoji": "ES",
+      "date": "2023-10-23T19:41:20.759Z",
+      "notes": "",
+      "position": {
+        "lat": "40.17887331434698",
+        "lng": "-3.2958984375000004"
+      },
+      "id": 98443206
+    },
+    {
+      "cityName": "Esparros",
+      "country": "France",
+      "emoji": "FR",
+      "date": "2023-10-23T21:06:46.161Z",
+      "notes": "",
+      "position": {
+        "lat": "43.03677585761058",
+        "lng": "0.30761718750000006"
+      },
+      "id": 98443207
     }
   ]
 }
