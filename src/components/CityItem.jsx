@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 import { useCities } from "../contexts/CitiesContext";
-import Spinner from "./Spinner";
 import styles from "./CityItem.module.css";
 
 const formatDate = (date) =>
