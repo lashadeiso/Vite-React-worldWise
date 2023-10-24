@@ -35,7 +35,9 @@ function City() {
         <h6>City name</h6>
         <h3>
           <span
-            className={`${styles.emoji} fi fi-${emoji.toLowerCase()}`}
+            className={`${styles.emoji} fi fi-${
+              emoji ? emoji.toLowerCase() : ""
+            }`}
           ></span>
           {cityName}
         </h3>
