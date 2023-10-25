@@ -23,7 +23,7 @@ const FAKE_USER = {
   name: "Lasha",
   email: "lasha.deisadze@gmail.com",
   password: "123123",
-  avatar: "https://i.pravatar.cc/100?u=zz",
+  avatar: "https://avatars.githubusercontent.com/u/85881151?v=4",
 };
 
 function AuthProvider({ children }) {

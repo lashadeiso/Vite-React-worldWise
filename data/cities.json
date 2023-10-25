@@ -49,16 +49,28 @@
       "id": 98443206
     },
     {
-      "cityName": "Esparros",
-      "country": "France",
-      "emoji": "FR",
-      "date": "2023-10-23T21:06:46.161Z",
-      "notes": "",
+      "cityName": "Wisbech",
+      "country": "United Kingdom of Great Britain and Northern Ireland (the)",
+      "emoji": "GB",
+      "date": "2023-10-11T06:13:07.000Z",
+      "notes": "sdfsdf",
       "position": {
-        "lat": "43.03677585761058",
-        "lng": "0.30761718750000006"
+        "lat": "52.639247985088936",
+        "lng": "0.13183593750000003"
       },
       "id": 98443207
+    },
+    {
+      "cityName": "Oktyabr’skoye",
+      "country": "Russian Federation (the)",
+      "emoji": "RU",
+      "date": "2023-10-25T06:20:35.553Z",
+      "notes": "sadas",
+      "position": {
+        "lat": "51.17801377948693",
+        "lng": "41.87988281250001"
+      },
+      "id": 98443208
     }
   ]
 }
